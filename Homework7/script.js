@@ -4,8 +4,8 @@ let obj = {
     age: 20
 };
 
-function retObjKeys(v) {
+function retObjValues(v) {
     return Object.values(v);
 };
 
-console.log(retObjKeys(obj));
+console.log(retObjValues(obj));
